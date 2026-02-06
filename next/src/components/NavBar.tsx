@@ -9,6 +9,7 @@ import GlowWrapper from "./GlowWrapper";
 import CycleIcons from "./motions/CycleIcons";
 import FadeIn from "./motions/FadeIn";
 import PrimaryButton from "./PrimaryButton";
+import AgentIcon from "../../public/icons/icon-agent.svg";
 import BlogsIcon from "../../public/icons/icon-blogs.svg";
 import DocsIcon from "../../public/icons/icon-docs.svg";
 import GithubIcon from "../../public/icons/icon-github.svg";
@@ -17,7 +18,7 @@ import PricingIcon from "../../public/icons/icon-pricing.svg";
 
 const navigation = [
   { name: "Home", href: "/home", icon: <HomeIcon /> },
-  { name: "Agent Creator", href: "/agent-creator", icon: <HomeIcon /> },
+  { name: "Agent Creator", href: "/agent-creator", icon: <AgentIcon /> },
   { name: "Blog", href: "/blog", icon: <BlogsIcon /> },
   { name: "Pricing", href: "https://agentgpt.reworkd.ai/plan", icon: <PricingIcon /> },
   {
