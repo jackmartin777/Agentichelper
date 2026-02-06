@@ -7,6 +7,7 @@ import {
   FaHouse,
   FaLinkedin,
   FaQuestion,
+  FaRobot,
   FaXTwitter,
 } from "react-icons/fa6";
 
@@ -22,6 +23,12 @@ export const PAGE_LINKS: LinkMetadata[] = [
     name: "Home",
     href: "/",
     icon: FaHouse,
+  },
+  {
+    name: "Agent Creator",
+    href: "/agent-creator",
+    icon: FaRobot,
+    className: "transition-transform group-hover:scale-110",
   },
   {
     name: "Help",

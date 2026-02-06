@@ -17,6 +17,7 @@ import PricingIcon from "../../public/icons/icon-pricing.svg";
 
 const navigation = [
   { name: "Home", href: "/home", icon: <HomeIcon /> },
+  { name: "Agent Creator", href: "/agent-creator", icon: <HomeIcon /> },
   { name: "Blog", href: "/blog", icon: <BlogsIcon /> },
   { name: "Pricing", href: "https://agentgpt.reworkd.ai/plan", icon: <PricingIcon /> },
   {
