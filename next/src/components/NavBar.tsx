@@ -18,13 +18,11 @@ import PricingIcon from "../../public/icons/icon-pricing.svg";
 const navigation = [
   { name: "Home", href: "/home", icon: <HomeIcon /> },
   { name: "Blog", href: "/blog", icon: <BlogsIcon /> },
-  { name: "Pricing", href: "https://agentgpt.reworkd.ai/plan", icon: <PricingIcon /> },
   {
     name: "Github",
-    href: "https://github.com/reworkd/AgentGPT",
+    href: "https://github.com/jackmartin777/AgentGPT",
     icon: <GithubIcon />,
   },
-  { name: "Docs", href: "https://reworkd.ai/docs", icon: <DocsIcon /> },
 ];
 
 export default function NavBar() {
@@ -45,10 +43,10 @@ export default function NavBar() {
                   src="/logos/dark-default-solid.svg"
                   width="25"
                   height="25"
-                  alt="Reworkd AI"
+                  alt="JackMartinAI"
                   className="mb-1 mr-2 invert-0"
                 />
-                <span className="text-xl font-light tracking-wider">Reworkd</span>
+                <span className="text-xl font-light tracking-wider">JackMartinAI</span>
               </div>
               <div className="hidden flex-1 items-center justify-center xmd:flex">
                 <div className="border-gradient flex h-[42px] items-center self-center overflow-hidden rounded-full bg-opacity-5 px-2 py-1 backdrop-blur-lg">
@@ -74,21 +72,6 @@ export default function NavBar() {
                 </div>
               </div>
               <div className="hidden justify-end gap-2 xmd:flex sm:items-center lg:flex-1">
-                <GlowWrapper className="opacity-40">
-                  <PrimaryButton
-                    onClick={() => {
-                      window.open("https://6h6bquxo5g1.typeform.com/to/qscfsOf1", "_blank");
-                    }}
-                  >
-                    <>
-                      <span>Join the Waitlist</span>
-                      <FaChevronRight
-                        size="12"
-                        className="text-gray-700 transition-transform group-hover:translate-x-1"
-                      />
-                    </>
-                  </PrimaryButton>
-                </GlowWrapper>
               </div>
               <div className="-mr-2 flex items-center xmd:hidden">
                 {/* Mobile menu button */}
